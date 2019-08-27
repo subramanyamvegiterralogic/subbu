@@ -24,6 +24,7 @@ from rest_framework import routers
 from rest_framework.authtoken import views as rest_fw_view
 from testapp2 import urls as testapp2_urls
 
+# Commit test case
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('testapp2/',include(testapp2_urls)),
