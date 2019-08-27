@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'testapp',
     'testapp2',
+    'class_based_views',
 ]
 
 MIDDLEWARE = [

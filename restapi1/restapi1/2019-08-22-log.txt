@@ -1,7 +1,0 @@
-Performing system checks...
-
-System check identified no issues (0 silenced).
-August 22, 2019 - 16:27:57
-Django version 2.2.4, using settings 'restapi1.settings'
-Starting development server at http://127.0.0.1:9091/
-Quit the server with CTRL-BREAK.

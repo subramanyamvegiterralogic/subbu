@@ -23,10 +23,12 @@ from rest_framework import routers
 # router.register('api',api_view.EmployeeDBClassBasedView,base_name='api')
 from rest_framework.authtoken import views as rest_fw_view
 from testapp2 import urls as testapp2_urls
+from class_based_views import urls as testapp3_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('testapp2/',include(testapp2_urls)),
+    path('testapp3/',include(testapp3_urls)),
     # url(r'',include(router.urls)),
 
     url(r'^api/$',EmployeeListCreateModelMixin.as_view()),
